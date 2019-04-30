@@ -6,7 +6,7 @@ It depends on Python 3.x and `mysql-connector-python` and is licensed under MIT.
 
 ## Quick Start
 
-Install the required dependencies and run the script agains a folder that contains files starting with a 2-digit decimal number and ending with `.sql`, such as `01_FirstFile.sql`, `34_AnotherFile.sql`
+Install the required dependencies and run the script against a folder that contains files named like `01_firstfile.sql`, `34_AnotherFile.sql`, etc. (i.e. `*_*.sql`)
 
 ``` (shell)
 # Create the configuration file to connect to the SQL database !!! ADJUST THE VALUES TO YOUR NEEDS !!!
